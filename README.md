@@ -13,4 +13,4 @@ here in this repository we have following items:
  
 
 Objective:
-With the help of Length and Width of iris we can determine the species of iris flower.
+With the help of Length and Width of petal & sepal we can determine the species of iris flower.
