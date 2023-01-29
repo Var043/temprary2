@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html><head>
+  <title>Stock Predictor</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#application">Application</a></li>
+    </ul>
+  </nav>
+</header>
+<br><br>
+<section id="home">
+  <h1><u>Welcome to Flower Class Prediction Application</u></h1>
+  <p>this is just a ml-decision tree implementation and data visualisation</p>
+</section>
+
+ 
+
+<section id="application">
+<!-- In the index.html file, create a form for users to input -->
+<div id="stock-box">
+  <img id="img" src="colored-using-seaborn.jpeg"  >
+
+<h1>Input Data for Predicting Class of Iris Flower </h1>
+  <div>
+  <form method="POST" action="{{url_for('predict')}}">
+    <input type="float" name="SepalLengthCm" placeholder="Sepal LengthCm" >
+    <input type="float" name="SepalWidthCm" placeholder="Sepal WidthCm" >
+    <input type="float" name="PetalLengthCm" placeholder="Petal LengthCm" >
+    <input type="float" name="PetalWidthCm" placeholder="Petal WidthCm" >
+    <input type="submit" value="Predict">
+  </form>
+  </div>
+</div>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a Web Developer and enjoy creating beautiful and functional websites.</p>
+</section>
+<section id="services">
+  <h2>My Services</h2>
+  <ul>
+    <li>Web Design</li>
+    <li>Web Development</li>
+    <li>Data Analysts</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: viv...@gmail.com</p>
+  <p>Phone: +91 85** ******</p>
+</section>  
+
+</body>
+</html>
